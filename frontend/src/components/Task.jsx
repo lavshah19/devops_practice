@@ -36,6 +36,7 @@ const Task = () => {
       console.error(err);
     }
   };
+  let featureAdded="new feature added";
 
   // Delete a task
   const deleteTask = async (id) => {
